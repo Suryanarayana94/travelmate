@@ -1,0 +1,25 @@
+{
+  "name": "travelmate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TravelMate \u2014 a full-stack India travel planning marketplace",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n API,WEB -c cyan,magenta \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w frontend",
+    "start": "npm run start -w backend",
+    "seed": "npm run seed -w backend",
+    "smoke": "node backend/scripts/smoke.js",
+    "images": "python3 scripts/fetch-place-images.py",
+    "db:check": "node backend/scripts/db-check.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

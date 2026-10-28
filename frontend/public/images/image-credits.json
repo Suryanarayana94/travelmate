@@ -1,0 +1,246 @@
+{
+  "generatedAt": "2026-10-25T03:35:04.774820+00:00",
+  "source": "Wikipedia lead images and Wikimedia Commons",
+  "images": {
+    "fort-aguada.jpg": {
+      "place": "Fort Aguada",
+      "fileTitle": "File:Fort aguada.jpg",
+      "author": "Nanasur at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Fort_aguada.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Fort_Aguada",
+      "width": 1024,
+      "height": 768
+    },
+    "baga-beach.jpg": {
+      "place": "Baga, Goa",
+      "fileTitle": "File:Beautiful Baga Beach.jpg",
+      "author": "Amol Bakshi",
+      "license": "CC BY-SA 4.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Beautiful_Baga_Beach.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Baga%2C_Goa",
+      "width": 1333,
+      "height": 1000
+    },
+    "anjuna-beach.jpg": {
+      "place": "Anjuna",
+      "fileTitle": "File:Anjuna Beach, Goa, India, Legendary Curlies beach shack.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Anjuna_Beach,_Goa,_India,_Legendary_Curlies_beach_shack.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Anjuna",
+      "width": 1400,
+      "height": 933
+    },
+    "chapora-fort.jpg": {
+      "place": "Chapora Fort",
+      "fileTitle": "File:Walls of Fort Chapora 2 26012016.jpg",
+      "author": "Nikhilb239",
+      "license": "CC BY 3.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Walls_of_Fort_Chapora_2_26012016.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Chapora_Fort",
+      "width": 1400,
+      "height": 899
+    },
+    "amber-fort.jpg": {
+      "place": "Amer Fort",
+      "fileTitle": "File:20191219 Fort Amber, Amer, Jaipur 0955 9481.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:20191219_Fort_Amber,_Amer,_Jaipur_0955_9481.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Amer_Fort",
+      "width": 1102,
+      "height": 1000
+    },
+    "hawa-mahal.jpg": {
+      "place": "Hawa Mahal",
+      "fileTitle": "File:East facade Hawa Mahal Jaipur from ground level (July 2022) - img 01.jpg",
+      "author": "Chainwit.",
+      "license": "CC BY-SA 4.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Hawa_Mahal",
+      "width": 1333,
+      "height": 1000
+    },
+    "city-palace-jaipur.jpg": {
+      "place": "City Palace, Jaipur",
+      "fileTitle": "File:Chandra Mahal, City Palace, Jaipur, 20191218 0951 9043.jpg",
+      "author": "Jakub Hałun",
+      "license": "CC BY-SA 4.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Chandra_Mahal,_City_Palace,_Jaipur,_20191218_0951_9043.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/City_Palace%2C_Jaipur",
+      "width": 1121,
+      "height": 1000
+    },
+    "jal-mahal.jpg": {
+      "place": "Jal Mahal",
+      "fileTitle": "File:Jaipur 03-2016 39 Jal Mahal - Water Palace.jpg",
+      "author": "A.Savin",
+      "license": "FAL",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Jaipur_03-2016_39_Jal_Mahal_-_Water_Palace.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Jal_Mahal",
+      "width": 1400,
+      "height": 933
+    },
+    "taj-mahal.jpg": {
+      "place": "Taj Mahal",
+      "fileTitle": "File:Taj Mahal (Edited).jpeg",
+      "author": "Yann ; edited by Jim Carter",
+      "license": "CC BY-SA 4.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Taj_Mahal",
+      "width": 1400,
+      "height": 920
+    },
+    "agra-fort.jpg": {
+      "place": "Agra Fort",
+      "fileTitle": "File:Agra 03-2016 16 Agra Fort.jpg",
+      "author": "A.Savin",
+      "license": "FAL",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Agra_03-2016_16_Agra_Fort.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Agra_Fort",
+      "width": 1400,
+      "height": 933
+    },
+    "mehtab-bagh.jpg": {
+      "place": "Mehtab Bagh",
+      "fileTitle": "File:Mehtab Bagh facing Taj Mahal.JPG",
+      "author": "g.kaustav",
+      "license": "CC BY-SA 3.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Mehtab_Bagh_facing_Taj_Mahal.JPG",
+      "articleUrl": "https://en.wikipedia.org/wiki/Mehtab_Bagh",
+      "width": 1400,
+      "height": 787
+    },
+    "fatehpur-sikri.jpg": {
+      "place": "Fatehpur Sikri",
+      "fileTitle": "File:Fatehput Sikiri Buland Darwaza gate 2010.jpg",
+      "author": "Marcin Białek",
+      "license": "CC BY-SA 3.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Fatehpur_Sikri",
+      "width": 1159,
+      "height": 1000
+    },
+    "munnar-tea-gardens.jpg": {
+      "place": "Munnar",
+      "fileTitle": "File:Munnar Overview.jpg",
+      "author": "Kondephy",
+      "license": "CC BY-SA 4.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Munnar_Overview.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Munnar",
+      "width": 1400,
+      "height": 933
+    },
+    "alleppey-backwaters.jpg": {
+      "place": "Alappuzha",
+      "fileTitle": "File:Alappuzha Boat Beauty W.jpg",
+      "author": "Augustus Binu / facebook",
+      "license": "CC BY-SA 3.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Alappuzha_Boat_Beauty_W.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Alappuzha",
+      "width": 1400,
+      "height": 928
+    },
+    "fort-kochi.jpg": {
+      "place": "Fort Kochi",
+      "fileTitle": "File:Kochi, Fishing nets at sunset, Kerala, India.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Kochi,_Fishing_nets_at_sunset,_Kerala,_India.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Fort_Kochi",
+      "width": 1400,
+      "height": 933
+    },
+    "periyar-national-park.jpg": {
+      "place": "Periyar National Park",
+      "fileTitle": "File:Periyar National Park.JPG",
+      "author": "Wouter Hagens",
+      "license": "Public domain",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Periyar_National_Park.JPG",
+      "articleUrl": "https://en.wikipedia.org/wiki/Periyar_National_Park",
+      "width": 1400,
+      "height": 774
+    },
+    "solang-valley.jpg": {
+      "place": "Solang Valley",
+      "fileTitle": "File:Solang Valley ,Manali, Himachal Pardes, India.JPG",
+      "author": "Harvinder Chandigarh",
+      "license": "CC BY-SA 4.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Solang_Valley_,Manali,_Himachal_Pardes,_India.JPG",
+      "articleUrl": "https://en.wikipedia.org/wiki/Solang_Valley",
+      "width": 1333,
+      "height": 1000
+    },
+    "rohtang-pass.jpg": {
+      "place": "Rohtang Pass",
+      "fileTitle": "File:Kullu Valley from Rohtang Pass, India.jpg",
+      "author": "Vyacheslav Argenberg",
+      "license": "CC BY 4.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Kullu_Valley_from_Rohtang_Pass,_India.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Rohtang_Pass",
+      "width": 1400,
+      "height": 933
+    },
+    "hadimba-temple.jpg": {
+      "place": "Hidimba Devi Temple",
+      "fileTitle": "File:Hidimba Devi Temple - North-east View - Manali 2014-05-11 2648-2649.TIF",
+      "author": "Biswarup Ganguly",
+      "license": "CC BY 3.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Hidimba_Devi_Temple_-_North-east_View_-_Manali_2014-05-11_2648-2649.TIF",
+      "articleUrl": "https://en.wikipedia.org/wiki/Hidimba_Devi_Temple",
+      "width": 1173,
+      "height": 1000
+    },
+    "manali.jpg": {
+      "place": "Manali, Himachal Pradesh",
+      "fileTitle": "File:Manali City.jpg",
+      "author": "Neerajsinghazm",
+      "license": "CC BY-SA 4.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Manali_City.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Manali%2C_Himachal_Pradesh",
+      "width": 1400,
+      "height": 909
+    },
+    "red-fort.jpg": {
+      "place": "Red Fort",
+      "fileTitle": "File:Delhi fort.jpg",
+      "author": "PerSona77",
+      "license": "CC BY-SA 3.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Delhi_fort.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Red_Fort",
+      "width": 1400,
+      "height": 643
+    },
+    "india-gate.jpg": {
+      "place": "India Gate",
+      "fileTitle": "File:India Gate front.jpg",
+      "author": "AKS.9955",
+      "license": "CC BY-SA 4.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:India_Gate_front.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/India_Gate",
+      "width": 916,
+      "height": 1000
+    },
+    "qutub-minar.jpg": {
+      "place": "Qutub Minar",
+      "fileTitle": "File:Qutb Minar 2022.jpg",
+      "author": "Wasir kasab",
+      "license": "CC BY 4.0",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Qutb_Minar_2022.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Qutub_Minar",
+      "width": 662,
+      "height": 1000
+    },
+    "humayuns-tomb.jpg": {
+      "place": "Humayun's Tomb",
+      "fileTitle": "File:Tomb of Humayun, Delhi.jpg",
+      "author": "Muhammad Mahdi Karim",
+      "license": "GFDL 1.2",
+      "commonsUrl": "https://commons.wikimedia.org/wiki/File:Tomb_of_Humayun,_Delhi.jpg",
+      "articleUrl": "https://en.wikipedia.org/wiki/Humayun%27s_Tomb",
+      "width": 1400,
+      "height": 473
+    }
+  }
+}

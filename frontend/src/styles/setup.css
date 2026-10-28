@@ -1,0 +1,255 @@
+/* ==========================================================================
+   Setup screen — shown while MongoDB Atlas is not connected
+   ========================================================================== */
+
+.db-gate {
+  min-height: 100vh;
+  display: grid;
+  align-content: start;
+  justify-items: center;
+  gap: 18px;
+  padding: clamp(24px, 6vh, 56px) 20px 56px;
+  background:
+    radial-gradient(1000px 520px at 12% -10%, rgba(20, 183, 137, 0.16), transparent 62%),
+    radial-gradient(760px 460px at 96% 8%, rgba(233, 161, 59, 0.14), transparent 60%),
+    var(--sand);
+}
+
+.db-gate--loading {
+  align-content: center;
+  gap: 14px;
+  color: var(--muted);
+  font-size: 14.5px;
+}
+
+.db-gate-spinner {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 3px solid rgba(15, 122, 111, 0.18);
+  border-top-color: var(--mint-dark);
+  animation: db-gate-spin 0.9s linear infinite;
+}
+
+.db-gate-card {
+  width: min(760px, 100%);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  padding: 34px 34px 26px;
+  display: grid;
+  gap: 22px;
+}
+
+.db-gate-head {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.db-gate-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  background: linear-gradient(140deg, var(--teal-700), var(--mint-dark));
+  box-shadow: 0 12px 26px rgba(12, 143, 106, 0.28);
+}
+
+.db-gate-eyebrow {
+  margin: 0 0 4px;
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mint-dark);
+}
+
+.db-gate-head h1 {
+  margin: 0 0 8px;
+  font-family: var(--font-display);
+  font-size: clamp(26px, 3.4vw, 33px);
+  line-height: 1.15;
+  color: var(--ink);
+}
+
+.db-gate-lede {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14.5px;
+  line-height: 1.62;
+  max-width: 58ch;
+}
+
+.db-gate-status {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 11px;
+  align-items: start;
+  padding: 13px 15px;
+  border-radius: var(--radius);
+  border: 1px solid var(--amber);
+  background: var(--amber-soft);
+  color: #7a5316;
+}
+
+.db-gate-status.is-offline {
+  border-color: #e0b4b1;
+  background: var(--rose-soft);
+  color: #8d3a36;
+}
+
+.db-gate-status svg { margin-top: 2px; }
+
+.db-gate-status strong {
+  display: block;
+  font-size: 13.5px;
+  color: inherit;
+}
+
+.db-gate-status span {
+  display: block;
+  font-size: 13px;
+  line-height: 1.55;
+  opacity: 0.92;
+  margin-top: 2px;
+}
+
+.db-gate-status code {
+  display: inline-block;
+  margin-top: 7px;
+  font-size: 12px;
+  padding: 2px 7px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.72);
+  color: inherit;
+}
+
+.db-gate-steps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 13px;
+}
+
+.db-gate-steps li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: start;
+}
+
+.db-gate-step-number {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 12.5px;
+  font-weight: 700;
+  color: var(--teal-700);
+  background: var(--mint-soft);
+  border: 1px solid rgba(12, 143, 106, 0.24);
+}
+
+.db-gate-steps strong {
+  display: block;
+  font-size: 13.8px;
+  color: var(--ink);
+}
+
+.db-gate-steps p {
+  margin: 2px 0 0;
+  font-size: 13.2px;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.db-gate-commands {
+  display: grid;
+  gap: 9px;
+}
+
+.db-gate-commands > p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.db-gate-commands > p code,
+.db-gate-footnote code {
+  font-size: 12.4px;
+  padding: 1px 5px;
+  border-radius: 5px;
+  background: var(--mint-soft);
+  color: var(--teal-700);
+}
+
+.db-gate-commands pre {
+  margin: 0;
+  padding: 15px 17px;
+  border-radius: var(--radius);
+  background: #062a27;
+  color: #d7f5ea;
+  font-size: 12.8px;
+  line-height: 1.75;
+  overflow-x: auto;
+}
+
+.db-gate-commands pre code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  white-space: pre;
+}
+
+.db-gate-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 11px;
+  padding-top: 4px;
+  border-top: 1px solid var(--line);
+  margin-top: 2px;
+  padding-top: 18px;
+}
+
+.db-gate-actions .btn { gap: 8px; }
+
+.db-gate-hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12.5px;
+  color: var(--muted-light);
+  margin-left: auto;
+}
+
+.db-gate-hint svg { color: var(--mint-dark); }
+
+.db-gate-footnote {
+  margin: 0;
+  font-size: 12.5px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.is-spinning { animation: db-gate-spin 0.9s linear infinite; }
+
+@keyframes db-gate-spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (max-width: 640px) {
+  .db-gate { padding: 26px 13px; }
+  .db-gate-card { padding: 24px 19px 20px; border-radius: var(--radius-lg); }
+  .db-gate-head { grid-template-columns: 1fr; }
+  .db-gate-hint { margin-left: 0; }
+  .db-gate-actions .btn { flex: 1 1 auto; justify-content: center; }
+}
